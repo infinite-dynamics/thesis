@@ -38,14 +38,6 @@
 } */
 
 body {
-  /* Путь к вашему бесшовному рисунку */
-  /* background-image: url("/media/goods_images/bg-image3.png"); */
-  
-  /* Заставляем картинку повторяться «плиткой» во все стороны */
-  /* background-repeat: repeat;  */
-  
-  /* Этим свойством вы можете регулировать размер «кусочков» (сделайте их поменьше) */
-  /* background-size: 150px;  */
 
   /* Жемчужное полотно */
   background-image: url("/media/goods_images/bg-image6.jpg");
@@ -67,7 +59,7 @@ body {
 }
 
 .custom-shadow {
-  box-shadow: 5px 5px 25px 19px #000000;
+  box-shadow: 5px 5px 25px 10px #5A3D30;
 }
 
 .product_id {
@@ -92,11 +84,8 @@ body {
   font-size: 0.7rem;
 }
 
-/* --- Золотые акценты и детали --- */
-
-/* 1. Золотая кнопка "Поиск" */
 .btn-outline-success {
-  color: #C5A059 !important; /* Приглушенное золото */
+  color: #C5A059 !important; 
   border-color: #C5A059 !important;
 }
 
@@ -106,14 +95,12 @@ body {
   border-color: #C5A059 !important;
 }
 
-/* 2. Подсветка ссылок в шапке при наведении */
 .navbar .nav-link:hover, 
 .navbar-brand:hover {
   color: #C5A059 !important;
   transition: color 0.3s ease;
 }
 
-/* 3. Золотые детали выпадающих списков (Dropdown) */
 .dropdown-menu {
   border-color: #FAF9F6 !important;
 }
@@ -121,4 +108,12 @@ body {
 .dropdown-item:hover {
   background-color: #FAF9F6 !important;
   color: #C5A059 !important;
+}
+
+.footer-link {
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #C5A059 !important; 
 }

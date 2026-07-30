@@ -1,0 +1,58 @@
+[
+{
+    "model": "goods.categories",
+    "pk": 4,
+    "fields": {
+        "name": "Все товары",
+        "slug": "all"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 5,
+    "fields": {
+        "name": "Мыло ручной работы",
+        "slug": "mylo-ruchnoj-raboty"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 6,
+    "fields": {
+        "name": "Ароматические свечи",
+        "slug": "aromaticheskie-svechi"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 7,
+    "fields": {
+        "name": "Ароматы для дома",
+        "slug": "aromaty-dlya-doma"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 8,
+    "fields": {
+        "name": "Уход за телом",
+        "slug": "uhod-za-telom"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 9,
+    "fields": {
+        "name": "Подарочные наборы",
+        "slug": "podarochnye-nabory"
+    }
+},
+{
+    "model": "goods.categories",
+    "pk": 10,
+    "fields": {
+        "name": "Аксессуары и декор",
+        "slug": "aksessuary-i-dekor"
+    }
+}
+]

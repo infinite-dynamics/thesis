@@ -1,0 +1,170 @@
+[
+{
+    "model": "goods.products",
+    "pk": 1,
+    "fields": {
+        "name": "Лавандовое мыло с травами",
+        "slug": "lavandovoe-mylo-s-travami",
+        "description": "Натуральное мыло ручной работы с эфирным маслом лаванды и цветками. Бережно очищает и успокаивает кожу.",
+        "image": "goods_images/lavender_soap_4bKAIQx.jpg",
+        "price": "350.00",
+        "discount": "10.00",
+        "quantity": 10,
+        "category": 5
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 2,
+    "fields": {
+        "name": "Мыло \"Мед и овсяные хлопья\"",
+        "slug": "mylo-med-i-ovsyanye-hlopya",
+        "description": "Нежное мыло-скраб с натуральным мёдом и молотым овсом для мягкого отшелушивания и питания.",
+        "image": "goods_images/honey_soap_9a8yYO6.jpg",
+        "price": "320.00",
+        "discount": "0.00",
+        "quantity": 6,
+        "category": 5
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 3,
+    "fields": {
+        "name": "Аромасвеча \"Табак и Ваниль\"",
+        "slug": "aromasvecha-abak-i-vanil",
+        "description": "Соевая свеча с деревянным фитилем, который приятно трещит при горении. Уютный и глубокий аромат.",
+        "image": "goods_images/tobacco_vanilla_candle_OUCb3pa.jpg",
+        "price": "890.00",
+        "discount": "0.00",
+        "quantity": 3,
+        "category": 6
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+        "name": "Свеча в кокосе \"Манго и Кокос\"",
+        "slug": "svecha-v-kokose-mango-i-kokos",
+        "description": "Экологичная свеча в настоящей скорлупе кокоса с сочным тропическим ароматом.",
+        "image": "goods_images/mango_coconut_candle.jpeg",
+        "price": "950.00",
+        "discount": "0.00",
+        "quantity": 7,
+        "category": 6
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 5,
+    "fields": {
+        "name": "Аромадиффузор \"Перец и Амбра\"",
+        "slug": "aromadiffuzor-perec-i-ambra",
+        "description": "Премиальный диффузор для дома с фибровыми палочками. Наполняет помещение ароматом до 3 месяцев.",
+        "image": "goods_images/aroma_diffuser_pepper.jpg",
+        "price": "1450.00",
+        "discount": "15.00",
+        "quantity": 10,
+        "category": 7
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 6,
+    "fields": {
+        "name": "Ароматическое восковое саше",
+        "slug": "aromaticheskoe-voskovoe-sashe",
+        "description": "Саше из кокосового воска с сухоцветами для ароматизации гардероба, комода или рабочего стола.",
+        "image": "goods_images/aromatic_sachet.jpg",
+        "price": "290.00",
+        "discount": "20.00",
+        "quantity": 15,
+        "category": 7
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 7,
+    "fields": {
+        "name": "Кофейный скраб для тела",
+        "slug": "kofejnyj-skrab-dlya-tela",
+        "description": "Тонизирующий скраб на основе молотых зёрен арабики, масел кокоса и миндаля. Делает кожу гладкой.",
+        "image": "goods_images/coffee_scrub.jfif",
+        "price": "590.00",
+        "discount": "0.00",
+        "quantity": 7,
+        "category": 8
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 8,
+    "fields": {
+        "name": "Набор бомбочек для ванны",
+        "slug": "nabor-bombochek-dlya-vanny",
+        "description": "Набор из 3 бурлящих шаров с морской солью, ценными маслами и ароматом цитрусовых.",
+        "image": "goods_images/bath_bombs.jfif",
+        "price": "480.00",
+        "discount": "0.00",
+        "quantity": 10,
+        "category": 8
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 9,
+    "fields": {
+        "name": "Подарочный набор \"Уютный вечер\"",
+        "slug": "podarochnyj-nabor-uyutnyj-vecher",
+        "description": "Готовый подарочный бокс: ароматная свеча в кокосе, соль для ванны, мыло для рук и чай травяной в красивой крафтовой упаковке.",
+        "image": "goods_images/gift_box.jpg",
+        "price": "1850.00",
+        "discount": "5.00",
+        "quantity": 3,
+        "category": 9
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 10,
+    "fields": {
+        "name": "Гипсовый поднос для декора",
+        "slug": "gipsovyj-podnos-dlya-dekora",
+        "description": "Эстетичная овальная подставка из высокопрочного гипса для свечей, украшений или косметики.",
+        "image": "goods_images/gypsum_tray.jfif",
+        "price": "450.00",
+        "discount": "0.00",
+        "quantity": 2,
+        "category": 9
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 11,
+    "fields": {
+        "name": "Деревянная мыльница",
+        "slug": "derevyannaya-mylnica",
+        "description": "Экологичная мыльница из ясеня с водоотталкивающим покрытием. Продлевает срок службы натурального мыла.",
+        "image": "goods_images/wooden_soap_dish.jpg",
+        "price": "380.00",
+        "discount": "0.00",
+        "quantity": 2,
+        "category": 10
+    }
+},
+{
+    "model": "goods.products",
+    "pk": 12,
+    "fields": {
+        "name": "Гаситель для свечей",
+        "slug": "gasitel-dlya-svechej",
+        "description": "Элегантный металлический гаситель для аккуратного тушения свечей без дыма и копоти.",
+        "image": "goods_images/candle_snuffer.jpg",
+        "price": "420.00",
+        "discount": "0.00",
+        "quantity": 1,
+        "category": 10
+    }
+}
+]
