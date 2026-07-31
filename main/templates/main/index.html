@@ -1,13 +1,45 @@
-{% extends "main/base.html" %}
+{% extends "base.html" %}
 {% load static %}
 
 {% block css %}
     <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
 {% endblock %}
 
-
 {% block content %}
-    <h1 class="mt-5 pt-5"><strong>{{ content }}</strong></h1>
+    <!-- Название магазина -->
+    <h1 class="mt-5 pt-5 text-center" style="color: #5A3D30; font-family: 'Georgia', serif;">
+        <strong>{{ content }}</strong>
+    </h1>
+    <p class="text-center text-muted mb-5" style="font-family: 'Georgia', serif; font-style: italic;">
+        Натуральная косметика, свечи ручной работы и ароматы для вашего дома.
+    </p>
+
+    <!-- Карточки преимуществ -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-4 mb-4">
+            <div class="card p-4 text-center h-100 border-0 custom-shadow">
+                <div class="fs-1 mb-2">🌿</div>
+                <h5 class="fw-bold mb-2" style="color: #5A3D30; font-family: 'Georgia', serif;">100% Натурально</h5>
+                <p class="small text-muted mb-0">Используем растительные воски, органические масла и безопасные отдушки.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card p-4 text-center h-100 border-0 custom-shadow">
+                <div class="fs-1 mb-2">🤲</div>
+                <h5 class="fw-bold mb-2" style="color: #5A3D30; font-family: 'Georgia', serif;">Ручная работа</h5>
+                <p class="small text-muted mb-0">Каждое мыло нарезается вручную, а свечи бережно заливаются небольшими партиями.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card p-4 text-center h-100 border-0 custom-shadow">
+                <div class="fs-1 mb-2">📦</div>
+                <h5 class="fw-bold mb-2" style="color: #5A3D30; font-family: 'Georgia', serif;">Забота в упаковке</h5>
+                <p class="small text-muted mb-0">Каждый заказ мы упаковываем в экологичные материалы с добавлением открытки.</p>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 
 {% block footer %}
