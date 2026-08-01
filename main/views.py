@@ -19,3 +19,9 @@ def about(request):
         'text_on_page': 'Мы правда крутые, купите свечку'
     }    
     return render(request, 'main/about.html', context)
+
+def contacts(request):
+    context = {
+        'title': 'Тепло в деталях - Контакты',
+    }
+    return render(request, 'main/contacts.html', context)

@@ -7,16 +7,46 @@
 
 
 {% block content %}
-    <div class="mt-5 pt-5 bg-white custom-shadow rounded">
-        <h2 class="m-2"><strong>{{ content }}</strong></h2>
-        <p class="m-2">{{ text_on_page }}</p>
+    <div class="container mt-5 pt-4 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-7">
+                <div class="card p-4 p-md-5 border-0 custom-shadow" style="background-color: rgba(255, 255, 255, 0.85);">
+                    
+                    <h2 class="text-center mb-4 text-brown" style="font-family: 'Georgia', serif; font-size: 2.2rem; letter-spacing: 1px;">
+                        О нашем бренде
+                    </h2>
+                    
+                    <p class="text-center text-muted mb-4" style="font-family: 'Georgia', serif; font-style: italic; line-height: 1.7; font-size: 1.15rem;">
+                        «Тепло в деталях» — это небольшая семейная мастерская, родившаяся из любви к домашнему уюту, натуральным крафтовым материалам и заботе о себе.
+                    </p>
+
+                    <!-- Основной лаконичный текст -->
+                    <p class="text-muted mb-5 small" style="line-height: 1.7; text-align: justify;">
+                        Каждая соевая свеча, брусок мыла ручной работы или флакон аромата для дома создаются нами исключительно вручную, небольшими лимитированными партиями. Мы бережно отбираем только экологически чистые воски, органические масла и сертифицированные премиальные отдушки, чтобы приносить в ваш дом безопасность, тепло и настоящее эстетическое удовольствие.
+                    </p>
+
+                    <div class="row g-4 text-start">
+                        <div class="col-sm-6">
+                            <h6 class="fw-bold mb-1 text-brown">🤲 Создано с душой</h6>
+                            <p class="small text-muted mb-0">Вкладываем тепло рук и заботу в каждое изделие.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="fw-bold mb-1 text-brown">🌿 Чистый состав</h6>
+                            <p class="small text-muted mb-0">Используем только сертифицированные и безопасные материалы.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
 {% block footer %}
-    <footer class="py-4 bg-dark">
+    <footer class="py-3 bg-dark mt-auto">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Home Python Hub Studio 2023</p>
+            <p class="m-0 text-center text-white-50 small">
+                &copy; {% now "Y" %} Тепло в деталях. Все права защищены.
+            </p>
         </div>
     </footer>
 {% endblock %}

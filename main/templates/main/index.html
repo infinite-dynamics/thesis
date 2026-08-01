@@ -43,9 +43,11 @@
 {% endblock %}
 
 {% block footer %}
-    <footer class="py-4 bg-dark">
+    <footer class="py-3 bg-dark mt-auto">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Home Python Hub Studio 2023</p>
+            <p class="m-0 text-center text-white-50 small">
+                &copy; {% now "Y" %} Тепло в деталях. Все права защищены.
+            </p>
         </div>
     </footer>
 {% endblock %}
