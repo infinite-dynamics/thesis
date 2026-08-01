@@ -1,71 +1,26 @@
-/* body {
-  background-image: url("../images/bg-image.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-}
-
-.dropdown-toggle::after {
-  content: none;
-}
-
-.custom-shadow {
-  box-shadow: 5px 5px 25px 19px #000000;
-}
-
-.product_id {
-  color: gray;
-  font-size: 15px;
-}
-
-.badge.bg-warning.text-dark {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  z-index: 1;
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-size: 1rem;
-  box-shadow: 2px 2px 15px 9px #000000;
-}
-
-.badge-banner {
-  top: 80%;
-  border-radius: 15px;
-  font-size: 0.7rem;
-} */
-
 body {
   background-image: url("../images/bg-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  background-color: #FAF9F6; /* Жемчужный резервный цвет */
+  background-color: #FAF9F6; 
   color: #333333;
-  
-  /* Идеальный прилипающий футер на Flexbox */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
 }
 
-/* Мягкая золотистая подсветка при поиске */
 mark {
   padding: 0 2px !important;
-  background-color: rgba(197, 160, 89, 0.3) !important; /* Мягкое золото вместо ядовито-желтого */
+  background-color: rgba(197, 160, 89, 0.3) !important; 
   color: inherit !important;
   border-radius: 2px;
 }
 
-/* ==========================================
-   2. НАВИГАЦИЯ И ВЕРХНЯЯ ПАНЕЛЬ (Header)
-   ========================================== */
 .dropdown-toggle::after {
-  content: none; /* Убирает стандартные стрелочки у выпадающих списков */
+  content: none; 
 }
 
 .dropdown-menu {
@@ -74,22 +29,17 @@ mark {
 
 .dropdown-item:hover {
   background-color: #FAF9F6 !important;
-  color: #C5A059 !important; /* Текст в меню становится золотым при наведении */
+  color: #C5A059 !important; 
 }
 
 .navbar .nav-link:hover, 
 .navbar-brand:hover {
-  color: #C5A059 !important; /* Подсветка ссылок меню золотом */
+  color: #C5A059 !important; 
   transition: color 0.3s ease;
 }
 
-/* ==========================================
-   3. КАРТОЧКИ ТОВАРОВ И ТЕНИ
-   ========================================== */
 
-/* Ваша фирменная тень в цвете #5A3D30 (RGB: 90, 61, 48) */
 .custom-shadow {
-  /* Двойная мягкая тень: дает глубокий объем без эффекта грязного черного облака */
   box-shadow: 0 12px 30px rgba(90, 61, 48, 0.28), 
               0 4px 10px rgba(0, 0, 0, 0.12) !important;
 }
@@ -99,7 +49,6 @@ mark {
   font-size: 15px;
 }
 
-/* Оформление плашки скидки */
 .badge.bg-warning.text-dark {
   position: absolute;
   top: 10px;
@@ -108,7 +57,7 @@ mark {
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Сделали тень плашки аккуратной */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
 }
 
 .badge-banner {
@@ -117,11 +66,6 @@ mark {
   font-size: 0.7rem;
 }
 
-/* ==========================================
-   4. КНОПКИ (Золотые и контурные)
-   ========================================== */
-
-/* Кнопка "Применить" в фильтрах */
 .btn-outline-success {
   color: #C5A059 !important; 
   border-color: #C5A059 !important;
@@ -133,7 +77,6 @@ mark {
   border-color: #C5A059 !important;
 }
 
-/* Золотая кнопка для быстрого заказа */
 .btn-gold {
   background-color: #C5A059 !important;
   color: #ffffff !important;
@@ -142,7 +85,7 @@ mark {
   font-family: 'Georgia', serif;
   font-size: 1.1rem;
   transition: all 0.3s ease !important;
-  box-shadow: 0 8px 20px rgba(90, 61, 48, 0.22) !important; /* Мягкая коричневая тень под кнопкой */
+  box-shadow: 0 8px 20px rgba(90, 61, 48, 0.22) !important; 
 }
 
 .btn-gold:hover {
@@ -150,11 +93,6 @@ mark {
   color: #ffffff !important;
 }
 
-/* ==========================================
-   5. ОФОРМЛЕНИЕ ТЕКСТА И ШРИФТОВ (Главная и инфо-страницы)
-   ========================================== */
-
-/* Заголовки страниц (Главная, О нас, Контакты) */
 .main-title {
   color: #5A3D30 !important;
   font-family: 'Georgia', 'Times New Roman', serif;
@@ -163,7 +101,6 @@ mark {
   text-shadow: 1px 1px 3px rgba(90, 61, 48, 0.1);
 }
 
-/* Подзаголовки */
 .main-subtitle {
   color: #7E6559;
   font-family: 'Georgia', 'Times New Roman', serif;
@@ -174,7 +111,6 @@ mark {
   margin: 0 auto;
 }
 
-/* Вспомогательные классы цветов */
 .text-brown {
   color: #5A3D30 !important;
   font-family: 'Georgia', serif;
@@ -184,11 +120,6 @@ mark {
   color: #C5A059 !important;
 }
 
-/* ==========================================
-   6. ФУТЕР И ССЫЛКИ В НЕМ
-   ========================================== */
-
-/* Выталкивает футер в самый низ страницы на коротких экранах */
 footer {
   margin-top: auto; 
 }
@@ -198,49 +129,40 @@ footer {
 }
 
 .footer-link:hover {
-  color: #C5A059 !important; /* Ссылки в футере плавно золотятся при наведении */
+  color: #C5A059 !important; 
 }
 
-/* ==========================================
-   7. КАСТОМИЗАЦИЯ ПАГИНАЦИИ И КАРТОЧЕК ТОВАРОВ
-   ========================================== */
-
-/* 1. Цвет обычных (неактивных) кнопок пагинации */
 .page-link {
-  color: #5A3D30 !important; /* Наш коричневый */
+  color: #5A3D30 !important; 
   background-color: rgba(255, 255, 255, 0.85) !important;
   border-color: #FAF9F6 !important;
   transition: all 0.3s ease;
 }
 
-/* При наведении на кнопку пагинации */
 .page-link:hover {
-  color: #C5A059 !important; /* Золото при наведении */
+  color: #C5A059 !important;
   background-color: #FAF9F6 !important;
 }
 
-/* 2. Цвет АКТИВНОЙ кнопки пагинации */
 .page-item.active .page-link {
-  background-color: #C5A059 !important; /* Наше золото */
+  background-color: #C5A059 !important; 
   border-color: #C5A059 !important;
   color: #ffffff !important;
 }
 
-/* 3. УБИРАЕМ СИНИЙ ЦВЕТ ССЫЛОК: Переопределяем цвет всех ссылок внутри карточки */
 .card-body a,
 .card-body a * {
-  color: #5A3D30 !important; /* Наш коричневый */
-  text-decoration: none !important; /* Убираем подчеркивание */
+  color: #5A3D30 !important; 
+  text-decoration: none !important; 
   transition: color 0.3s ease;
 }
 
-/* При наведении на ссылку в карточке плавно превращаем её в золото */
+
 .card-body a:hover,
 .card-body a:hover * {
-  color: #C5A059 !important; /* Наше золото */
+  color: #C5A059 !important; 
 }
 
-/* 4. Название товара в карточке */
 .card-title {
   font-family: 'Georgia', serif;
   font-weight: bold;

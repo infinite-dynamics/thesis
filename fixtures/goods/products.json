@@ -59,7 +59,7 @@
     "model": "goods.products",
     "pk": 5,
     "fields": {
-        "name": "Аромадиффузор \"Перец и Амбра\"",
+        "name": "Аромадиффузор \"Перец\"",
         "slug": "aromadiffuzor-perec-i-ambra",
         "description": "Премиальный диффузор для дома с фибровыми палочками. Наполняет помещение ароматом до 3 месяцев.",
         "image": "goods_images/aroma_diffuser_pepper.jpg",
