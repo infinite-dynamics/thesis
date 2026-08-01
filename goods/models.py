@@ -44,4 +44,3 @@ class Products(models.Model):
         
         return self.price
 
-    
