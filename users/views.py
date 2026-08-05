@@ -22,7 +22,7 @@ def login(request):
         form = UserLoginForm()
 
     context = {
-        'title': 'Home - Авторизация',
+        'title': 'Тепло в деталях - Авторизация',
         'form': form
     }
     return render(request, 'users/login.html', context)
@@ -41,7 +41,7 @@ def registration(request):
         form = UserRegistrationForm()
     
     context = {
-        'title': 'Home - Регистрация',
+        'title': 'Тепло в деталях - Регистрация',
         'form': form
     }
     return render(request, 'users/registration.html', context)
@@ -52,13 +52,13 @@ def profile(request):
         form = ProfileForm(data=request.POST, instance=request.user, files=request.FILES)
         if form.is_valid():
             form.save()
-            messages.success(request, "Профайл успешно обновлен")
+            messages.success(request, "Профиль успешно обновлен")
             return HttpResponseRedirect(reverse('user:profile'))
     else:
         form = ProfileForm(instance=request.user)
 
     context = {
-        'title': 'Home - Кабинет',
+        'title': 'Тепло в деталях - Кабинет',
         'form': form
     }
     return render(request, 'users/profile.html', context)
